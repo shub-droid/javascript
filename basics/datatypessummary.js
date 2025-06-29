@@ -30,3 +30,23 @@ let shubham={
        Arrays  =>  object
        Function  =>  function
        Object  =>  object  */
+
+//Stack Memory(Primitive),Heap Memory(Non-Primitive)
+
+let myname="Aman"
+let myname2=myname
+
+console.log(myname)
+console.log(myname2)
+
+//copy of the data is done in stack memory
+let user={
+    name:"Shubham",
+    age:19
+}
+console.log(user.name)
+
+let user2=user
+user2.name="Kishan"
+console.log(user2.name)
+console.log(user.name)   //answer is comming out to be kishan because in JS heap memory the same instance is shared between them so change in one leads to change in other
