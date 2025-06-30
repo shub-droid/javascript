@@ -28,11 +28,11 @@
 console.log("slice and splice")
 // Differnce between Slice and Splice
 /* Splice Operation manupulate the Array.*/
-A1=new Array(1,2,3,4,5,6,7,8,9)
+/*A1=new Array(1,2,3,4,5,6,7,8,9)
 console.log(A1)
 const A2=A1.slice(1,3)
 console.log(A2)
 console.log(A1)
 const A3=A1.splice(1,3)
 console.log(A3)
-console.log(A1)
+console.log(A1)*/
