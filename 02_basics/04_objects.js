@@ -1,4 +1,4 @@
-const tinderuser={  }
+/*const tinderuser={  }
 tinderuser.id='123abc'
 tinderuser.name='Shubham'
 tinderuser.isloggedIn=false
@@ -50,7 +50,20 @@ console.log(Object.keys(tinderuser))
 // iska data type array ata hai
 console.log(Object.values(tinderuser))
 
-console.log(Object.entries(tinderuser))
+onsole.log(tinderuser.hasOwnProperty("isloggedIn"))
+//return true and false based on have that properties or not */
 
-console.log(tinderuser.hasOwnProperty("isloggedIn"))
-//return true and false based on have that properties or not
+//Destructuring of Objects
+console.log("Destructuring")
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseinstructure:"hitesh"
+}
+const{courseinstructure:instructor}=course
+console.log(instructor)
+// isko he kehde hai destructuring mtlab hm chota kr dete 
+
+
+
