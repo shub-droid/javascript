@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    /*const sayShubham=function(){
+        console.log('shubham')
+    }*/
+   function sayShubham(){
+    console.log('shubham')
+   }
+    setTimeout(sayShubham,2000)
+    //2 second yeah function ka kaam karega
+    function changeText(){
+        document.querySelector('h1').innerHTML="best code on JS"
+    }
+     const changeME=setTimeout(changeText,2000)
+    
+
+     //clearTimeout(changeME)
+
+     document.querySelector("#stop").addEventListener('click',function(){
+        clearTimeout(changeME)
+        console.log("event closed")
+     })
+
+    
+
+</script>
+</html>
